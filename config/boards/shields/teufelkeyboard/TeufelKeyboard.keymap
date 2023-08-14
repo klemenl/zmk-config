@@ -8,17 +8,17 @@
 
         default_layer {
             bindings = <
-                &kp K   &kp L
-                &kp 1   &kp 2
-                &kp C_VOLUME_UP &mo 1
+                &kp C_VOLUME_DOWN &kp C_VOLUME_UP
+                &kp C_PREV   &kp C_NEXT
+                &kp C_PLAY_PAUSE &mo 1
             >;
         };
 
         bt_layer {
             bindings = <
-                &kp 1 &kp 2
-                &kp 3 &kp 4
-                &none &none
+                &bt BT_CLR &none
+                &kp N1 &kp N2
+                &kp N3 &none
             >;
         };
     };
