@@ -1,0 +1,6 @@
+if SHIELD_TEUFELKEYBOARD
+
+config ZMK_KEYBOARD_NAME
+    default "TeufelKeyboard"
+
+endif
