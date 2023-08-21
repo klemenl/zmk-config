@@ -1,4 +1,4 @@
-if SHIELD_TEUFELKEYBOARD
+if SHIELD_TEUFELREMOTE
 
 config ZMK_KEYBOARD_NAME
     default "TeufelRemote"
