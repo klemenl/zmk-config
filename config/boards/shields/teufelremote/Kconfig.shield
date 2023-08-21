@@ -1,0 +1,2 @@
+config SHIELD_TEUFELKEYBOARD
+    def_bool $(shields_list_contains,TeufelRemote)
