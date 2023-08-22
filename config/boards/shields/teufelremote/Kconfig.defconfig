@@ -3,4 +3,7 @@ if SHIELD_TEUFELREMOTE
 config ZMK_KEYBOARD_NAME
     default "TeufelRemote"
 
+# Turn on logging, and set ZMK logging to debug output
+CONFIG_ZMK_USB_LOGGING=y
+
 endif
