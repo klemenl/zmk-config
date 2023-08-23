@@ -6,7 +6,4 @@ config ZMK_KEYBOARD_NAME
 config ZMK_USB_LOGGING
     default y
 
-config ZMK_LOG_LEVEL
-    default 3
-
 endif
