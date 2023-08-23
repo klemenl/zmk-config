@@ -3,7 +3,10 @@ if SHIELD_TEUFELREMOTE
 config ZMK_KEYBOARD_NAME
     default "TeufelRemote"
 
-config CONFIG_ZMK_USB_LOGGING
+config ZMK_USB_LOGGING
     default y
+
+config ZMK_LOG_LEVEL
+    default 3
 
 endif
