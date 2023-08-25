@@ -13,8 +13,8 @@
                 &kp C_VOLUME_DOWN
                 &kp C_VOLUME_UP
                 &kp N1
-                &kp N2
-                &kp N3
+                &kp BT_NEXT
+                &kp BT_PRV
                 &bt BT_CLR
             >;
         };
